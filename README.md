@@ -5,9 +5,10 @@ En este repositorio se encuentra todos los libros con los cuales entreno la tecn
 
 ## 1. Programación con Android
 ---
-Autorres: Bill Phillips, Chris Stewart, Brian Hardy y Kristin Marsicano
-Editorial: **Big Nerd Ranch**
-Edición: 2016
+
+- Autores: Bill Phillips, Chris Stewart, Brian Hardy y Kristin Marsicano.
+- Editorial: **Big Nerd Ranch**.
+- Edición: 2016.
 
 En este libro se describen 8 aplicaciones para Android, los cuales son:
 1. GeoQuiz: Es primera aplicación donde se explora los aspectos básicos de los proyectos android como las activity, los layout y los intent explicitos.
