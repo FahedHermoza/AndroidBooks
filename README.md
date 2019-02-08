@@ -11,7 +11,7 @@ En este repositorio se encuentra todos los libros con los cuales entreno la tecn
 - Edición: 2016.
 
 En este libro se describen 8 aplicaciones para Android, los cuales son:
-1. GeoQuiz: Es primera aplicación donde se explora los aspectos básicos de los proyectos android como las activity, los layout y los intent explicitos.
+1. [GeoQuiz](https://github.com/FahedHermoza/AndroidBooks/tree/master/Programaci%C3%B3nConAndroid/appGeoQuiz): Es primera aplicación donde se explora los aspectos básicos de los proyectos android como las activity, los layout, los intent explicitos, patron MCV, depuracion y compatibilidad.
 2. 
 
 ### Mas información
