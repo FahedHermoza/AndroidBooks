@@ -1,6 +1,8 @@
 App GeoQuiz
-[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-codebabes.svg)](https://forthebadge.com)
 =======================================
+
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-codebabes.svg)](https://forthebadge.com)
+
 La app GeoQuiz comprueba los conocimientos geográficos del usuario, donde el usuario deberá pulsar TRUE (verdadero) o FALSE (falso) para responder a la pregunta que aparezca en pantalla y también cuenta con la opción para hacer Trampa.
 
 ## Aprendizaje
@@ -20,5 +22,5 @@ En esta aplicación se explora los aspectos básicos de los proyectos android:
         <img height="0" width="32px">
 </div>
 
-## Buscar más apps
+## Buscar más aplicaciones
 Echa un vistazo al [proyecto principal](https://github.com/FahedHermoza/AndroidBooks#1-programaci%C3%B3n-con-android)
