@@ -25,6 +25,9 @@ Estos proyectos son del libro [Android Programming (Amazon)](https://www.amazon.
 
 Este libro da ejemplos de como utilizar efectivamente RxJava para la carga de datos asincrono. Evitando Memory Leak y evitando volver a consultar datos sobre cambios de configuración.
 
+### Mas información
+Resumen del libro [RxJava for Android App Development](https://theswissbay.ch/pdf/_to_sort/O%27Reilly/rxjava-for-android-app-development.pdf).
+
 ## 3. Reactive Programning on Android with RxJava
 ---
 
@@ -35,7 +38,7 @@ Este libro da ejemplos de como utilizar efectivamente RxJava para la carga de da
 Desde mi punto de vista el mejor libro para entender Programacion Reactiva cuenta con un lenguaje que cualquier Android Dev entiende, va desde lo básico hasta lo avanzando con ejemplos de la mano.
 
 ### Mas información
-Resumen del libro [RxJava for Android App Development](https://theswissbay.ch/pdf/_to_sort/O%27Reilly/rxjava-for-android-app-development.pdf).
+Resumen del libro [Reactive Programning on Android with RxJava](https://leanpub.com/reactiveandroid).
 
 ## Desarrollador
 **Si te sirvió** puedes darme manito arriba en mi [blog](https://www.facebook.com/fahedhermoza/).
