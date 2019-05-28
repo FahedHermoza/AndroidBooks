@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_tap"
+        android:icon="@drawable/ic_tentacle"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_tap"
+        android:roundIcon="@drawable/ic_tentacle"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name=".MainActivity" >

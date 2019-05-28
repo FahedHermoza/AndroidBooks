@@ -3,7 +3,6 @@ package com.fahedhermoza.developer.teamfighter
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
-import android.os.PersistableBundle
 import android.support.v7.app.AlertDialog
 import android.util.Log
 import android.view.Menu
@@ -40,7 +39,12 @@ class MainActivity : AppCompatActivity() {
             resetGame()
         }
 
-        buttonTap.setOnClickListener { view ->
+        buttonCaress.setOnClickListener { view ->
+            val bounceAnimation = AnimationUtils.loadAnimation(this, R.anim.bounce)
+            view.startAnimation(bounceAnimation)
+            incrementStore() }
+
+        buttonIntroduce.setOnClickListener { view ->
             val bounceAnimation = AnimationUtils.loadAnimation(this, R.anim.bounce)
             view.startAnimation(bounceAnimation)
             incrementStore() }
@@ -135,7 +139,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun endGame(){
-        Toast.makeText(this,getString(R.string.game_over_message, score.toString()),Toast.LENGTH_SHORT).show()
+        if(score<500)
+            Toast.makeText(this,getString(R.string.game_over_message_noob, score.toString()),Toast.LENGTH_LONG).show()
+        else
+            Toast.makeText(this,getString(R.string.game_over_message_expert, score.toString()),Toast.LENGTH_LONG).show()
         resetGame()
     }
 

@@ -1,10 +1,12 @@
 <resources>
-    <string name="app_name">TeamFighter</string>
-    <string name="your_score">Your Score: %s</string>
-    <string name="time_left">Time Left: %s</string>
-    <string name="tap_me">TAP ME</string>
-    <string name="game_over_message">Times up! Your score was: %s</string>
+    <string name="app_name">TentaCulo</string>
+    <string name="your_score">Tu Puntuación: %s</string>
+    <string name="time_left">Tiempo restante: %s</string>
+    <string name="caress_me">Acariciame</string>
+    <string name="introduce_me">Introduceme</string>
+    <string name="game_over_message_noob">Se acabo el tiempo! Tu puntuación fue: %s ¡Ya mejoraras VIRGEN !</string>
+    <string name="game_over_message_expert">Se acabo el tiempo! Tu puntuación fue: %s. ¡Tienes TENTACULOS en las manos!</string>
     <string name="about_menu">About</string>
-    <string name="about_title">Time Fighter %s</string>
+    <string name="about_title">TentaCulo %s</string>
     <string name="about_message">Created by Fahed Hermoza</string>
 </resources>
