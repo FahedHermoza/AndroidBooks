@@ -40,5 +40,21 @@ Desde mi punto de vista el mejor libro para entender Programación Reactiva cuen
 ### Mas información
 Resumen del libro [Reactive Programning on Android with RxJava](https://leanpub.com/reactiveandroid).
 
+## 4. Kotlin for Android Developers
+---
+
+- Autores: Antonio Leiva.
+- Editorial: **LeanPub**.
+- Edición: 2019.
+
+Este libro tiene un lenguaje conciso para android devs, los capítulos son cortos pero con contenido sustancial, va desde lo fácil a lo complejo examinando ejemplos de código.
+
+En este libro se crea 1 aplicación a los largo de los capítulos:
+1. [Weather](https://github.com/FahedHermoza/AndroidBooks/tree/master/KotlinForAndroidDevelopers/WeatherApp/Weather):
+
+Desde este punto empecé a realizar algunas apps basados en tutoriales de **[Raywenderlich](https://www.raywenderlich.com)**:
+
+2. [TentaCulo](https://github.com/FahedHermoza/AndroidBooks/tree/master/KotlinForAndroidDevelopers/TentaCuloApp): La app TentaCulo donde se plasma aspectos básicos de android utilizando koltin como las activty, los layouts, UI, debugging, countdown timer.
+
 ## Desarrollador
 **Si te sirvió** puedes darme manito arriba en mi [blog](https://www.facebook.com/fahedhermoza/).
