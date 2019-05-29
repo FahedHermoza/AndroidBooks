@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter ="true"
+    android:interpolator ="@android:anim/bounce_interpolator">
+    <scale
+            android:duration = "2000"
+            android:fromXScale = "2.0"
+            android:fromYScale = "2.0"
+            android:pivotX = "50%"
+            android:pivotY = "50%"
+            android:toXScale = "1.0"
+            android:toYScale = "1.0"
+        />
+
+</set>
+
+<!--
+El fillAfter de establecerlo en verdadero significa que su vista, en este caso, el botón, no volverá a su posición
+original antes de la animación. En su lugar, permanecerá en la posición final, al final de la animación.
+
+El interpolator define la curva de aceleración para la animación. En este caso, lo establece en el interpolador de
+rebote predefinido, que viene con Android. Si lo desea, también puede crear sus propios interpoladores.
+
+La etiqueta de escala define tu animación de rebote. Como lo indica la etiqueta, estarás llevando a cabo una
+transformación de escala, donde escalarás el botón hacia arriba y hacia abajo para que parezca que está rebotando.
+Los atributos de la etiqueta de escala definen cómo se produce la escala y durante cuánto tiempo. El atributo de
+duración define cuánto tiempo tomarán las transformaciones. Los valores están en milisegundos, por lo que la animación
+tendrá una duración de dos segundos.
+
+Los atributos fromXScale y fromYScale especifican la escala inicial para la animación. Aquí, indica que la animación
+debe comenzar con el doble del ancho y la altura del botón.
+
+Los valores de pivotX y pivotY indican el punto de pivote o el origen de la animación. Por ejemplo, puede hacer que
+la animación se produzca desde el centro de la vista, o desde la esquina superior izquierda o inferior derecha, etc.
+Los valores para estos atributos están en porcentajes, donde 0% para ambos sería la parte superior e izquierda y 100%
+para ambos sería la parte inferior y derecha. Ambos valores se establecen en 50%, lo que indica que desea comenzar
+desde el centro.
+
+Los atributos toXScale y toYScale indican el valor de escala final para la transformación. Aquí, desea que el botón
+regrese a su escala original, por lo que establece ambos atributos en uno. Eso configura la animación, y puede usar
+esta animación para cualquier vista en su aplicación, no solo el botón Hit Me.
+-->

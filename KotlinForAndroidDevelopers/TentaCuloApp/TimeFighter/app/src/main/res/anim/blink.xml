@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <alpha
+            android:fromAlpha="0.0"
+            android:toAlpha="1.0"
+            android:duration="300"/>
+</set>
+
+
+<!--
+     Las etiquetas alfa controlan el valor de animación, de la animación y esa duración.
+     Hay otros atributos, como el modo de repetición y el conteo de repeticiones que se pueden usar aquí
+     para personalizar la animación.
+-->
