@@ -7,6 +7,7 @@ La app TentaCulo supuesta app que promete convertirte en un experto en la mastur
 
 ## Aprendizaje
 En esta aplicación se explora los aspectos básicos de los proyectos android:
+- Kotlin
 - Las activity. 
 - Los layout. 
 - Countdown timer. 
